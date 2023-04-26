@@ -1,4 +1,4 @@
-No Git Bash:
+Git Bash:
 
 Configuração de perfil:
         $ git config --global user.name "Fulano de Tal"
@@ -8,7 +8,7 @@ Mostrar dados:
         $ git config --list
 
 ====================================================
-No Git Bash:
+Git Bash:
 
 Enviar projeto local p/ GitHub:
         inicialize o Git Bash dentro do diretório, com o botão direito 
@@ -29,12 +29,12 @@ Criar commit:
 
 ------------------------------------------------------------------------------
 
-No GitHub:
+GitHub:
     Criar um novo repositório e copiar o link.
 
 ------------------------------------------------------------------------------
 
-No Git Bash:
+Git Bash:
     Vincular o repositório do projeto local ao GitHub:
         $ git remote add origin "colar link"
 
