@@ -1,0 +1,47 @@
+No Git Bash:
+
+Configuração de perfil:
+        $ git config --global user.name "Fulano de Tal"
+        $ git config --global user.email fulanodetal@exemplo.br
+
+Mostrar dados:
+        $ git config --list
+
+====================================================
+No Git Bash:
+
+Enviar projeto local p/ GitHub:
+        inicialize o Git Bash dentro do diretório, com o botão direito 
+        ou acesse o diretório diretamente pelo terminal do Git Bash.
+        ex.: cd NomedaPasta/NomedeOutraPasta/nomeDaPastaDoProjeto/
+
+Inicializar um repositório Git:
+        $ git init
+
+Mostrar status de todos os arquivos do diretório:
+        $ git status
+
+Adicionar todos os arquivos ao mesmo pacote:
+        $ git add .
+
+Criar commit:
+        $ git commit -m "comentário"
+
+------------------------------------------------------------------------------
+
+No GitHub:
+    Criar um novo repositório e copiar o link.
+
+------------------------------------------------------------------------------
+
+No Git Bash:
+    Vincular o repositório do projeto local ao GitHub:
+        $ git remote add origin "colar link"
+
+    Verificar se o endereço foi adicionado:
+        $ git remote show origin -n
+        $ git remote rm [caso erre o endereço]
+
+    Enviar projeto:
+        $ git push origin master
+
